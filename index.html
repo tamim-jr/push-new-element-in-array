@@ -7,17 +7,19 @@
     <title>Push new element in an Array</title>
 </head>
 <body>
-    <button onclick="myFunction()">Try it</button>
+    <!-- <button onclick="myFunction()">Try it</button> -->
     <p id="demo"></p>
 
     <script>
         const locat = ["Dhaka", "Khulna", "Borisal"];
+        locat.push("Londn");  
+        // locat[locat.length] = "London";
         document.getElementById("demo").innerHTML = locat;
         
-        function myFunction() {
-        locat.push("Londn");     
-        document.getElementById("demo").innerHTML = locat;
-        }
+        // function myFunction() {
+        // locat.push("Londn");     
+        // document.getElementById("demo").innerHTML = locat;
+        // }
     </script>
 </body>
 </html>
